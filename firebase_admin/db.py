@@ -301,7 +301,7 @@ class Reference:
 
             raise error
 
-    def push(self, value=''):
+    def push(self, value=None):
         """Creates a new child node.
 
         The optional value argument can be used to provide an initial value for the child node. If
